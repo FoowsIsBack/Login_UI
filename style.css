@@ -1,0 +1,88 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.default{
+    border: 1px solid rgba(128, 128, 128, 0.093);
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+h4{
+    padding-left: 10px;
+    color: rgba(128, 128, 128, 0.093);
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.639);
+    box-shadow: 5px 10px 8px gray;
+}
+
+.text{
+    justify-items: center;
+    padding-top: 150px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    font-size: 25px;
+    width: 450px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+input:focus{
+    border: 2px solid rgb(23, 148, 197);
+}
+
+input::placeholder{
+    font-size: large;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+}
+
+.info{
+    padding-left: 12px;
+}
+
+.click{
+    text-align: center;
+    padding-top: 20px;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(23, 148, 197);
+    color: white;
+    border-radius: 10px;
+    border: none;    
+    width: 300px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: rgba(23, 148, 197, 0.872);
+}
+
+p{
+    color: red;
+    font-size: larger;
+}
+
+p[id="good"]{
+    color: green;
+    font-size: larger;
+}
