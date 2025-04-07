@@ -28,6 +28,11 @@ h4{
     padding-top: 150px;
 }
 
+.show{
+    padding-top: 10px;
+    font-size: larger;
+}
+
 h1{
     text-align: center;
 }
