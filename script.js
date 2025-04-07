@@ -5,10 +5,6 @@ document.querySelector("button").addEventListener("click", function() {
     const user = "admin";
     const passwd = "root";
 
-    document.getElementById("wrong").innerText = "";
-    document.getElementById("userX").innerText = "";
-    document.getElementById("passX").innerText = "";
-
     if (username !== user && password !== passwd) {
         document.getElementById("wrong").innerText = "Username and Password is Wrong!";
     } else if (username !== user) {
